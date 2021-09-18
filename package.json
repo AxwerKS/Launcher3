@@ -18,8 +18,8 @@
     "make": "electron-forge make --arch=x64 --platform=darwin && electron-forge make --arch=x64 --platform=win32",
     "publish": "electron-forge publish --arch=x64 --platform=darwin && electron-forge publish --arch=x64 --platform=win32",
     "lint": "echo \"No linting configured\"",
-	"build": "electron-builder build --win --publish never",
-	"deploy": "electron-builder build --win --publish always"
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
   },
   "keywords": [],
   "author": "Layne Balsters (Laynester)",
@@ -64,10 +64,10 @@
     "type": "git",
     "url": "https://github.com/AxwerKS/Launcher3.git"
   },
-  "asar" : true,
+  "asar": true,
   "extraResources": [
-      "./public/**",
-      "./resources/**"
+    "./public/**",
+    "./resources/**"
   ],
   "build": {
     "extraResources": [
