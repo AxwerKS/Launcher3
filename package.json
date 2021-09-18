@@ -8,7 +8,7 @@
     "backgroundColor": "#ccc",
     "hideMenu": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Habbo Hotel Desktop Application",
   "main": "src/index.js",
   "scripts": {
